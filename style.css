@@ -13,9 +13,17 @@ nav{
 .searchbar{
     height: 60px;
     width: 100%;
-    background-color: blue;
+    display: grid;
+    place-content: center;
 }
 
+.searchbar input{
+    height: 30px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 40px;
+    border: none;
+}
 .main{
     display: flex;
 }
@@ -60,6 +68,7 @@ nav{
 .links a{
     text-decoration: none;
     font-size: 24px;
-    font-family:Helvetica;
+    font-family: Helvetica;
     color: black;
 }
+
