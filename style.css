@@ -30,13 +30,12 @@ nav{
 
 .left{
     height: 808px;
-    width: 60%;
-    background-color: green;
+    width: 55%;
 }
 
 .rigth{
     height: 808px;
-    width: 40%;
+    width: 45%;
     background-color: pink;
 }
 
@@ -51,18 +50,18 @@ nav{
 .logo{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .logo p{
     font-size: 30px;
-    font-family: Verdana;
+    font-family:  Tahoma;
     font-weight: bold;
 }
 
 .links{
     display: flex;
-    gap: 150px;
+    gap: 200px;
 }
 
 .links a{
@@ -72,3 +71,76 @@ nav{
     color: black;
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 150px;
+    gap: 40px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1{
+    font-size: 100px;
+    font-family: Tahoma;
+}
+
+.title h2{
+    font-size: 100px;
+    font-family: Tahoma;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.line{
+    height: 6px;
+    width: 350px;
+    background-color: black;
+}
+
+.price h1{
+    font-size: 60px;
+    font-family: Tahoma; 
+}
+
+.desc{
+    width: 700px;
+}
+
+.desc p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.CTA{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.CTA button{
+    height: auto;
+    width: auto;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background-color: #0b421a;
+    border: none;
+    color: antiquewhite;
+    box-shadow: 3px 3px 10px #505050;
+}
+
+.CTA a{
+    font-size: 26px;
+    font-family: Tahoma;
+    text-decoration: none;
+    color: black;
+    
+}
