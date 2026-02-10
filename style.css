@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(145, 21, 21);
+}
+
+.searchbar{
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+    height: 808px;
+    width: 60%;
+    background-color: green;
+}
+
+.rigth{
+    height: 808px;
+    width: 40%;
+    background-color: pink;
+}
